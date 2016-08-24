@@ -1,7 +1,7 @@
 (function () {
 
     // Change this to your GitHub username so you don't have to modify so many things.
-    var fork = "basicBot";
+    var fork = "TheyCallMeTerry";
 
     // Define our function responsible for extending the bot.
     function extend() {
@@ -46,13 +46,13 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-      botName: "basicBot",
+      botName: "ChillZoneBot",
       language: "english",
       chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
       scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
       roomLock: false, // Requires an extension to re-load the script
-      startupCap: 1, // 1-200
-      startupVolume: 0, // 0-100
+      startupCap: 150, // 1-200
+      startupVolume: 45, // 0-100
       startupEmoji: false, // true or false
       autowoot: true,
       autoskip: false,
@@ -68,9 +68,9 @@
       maximumLocktime: 10,
       cycleGuard: true,
       maximumCycletime: 10,
-      voteSkip: false,
+      voteSkip: true,
       voteSkipLimit: 10,
-      historySkip: false,
+      historySkip: true,
       timeGuard: true,
       maximumSongLength: 10,
       autodisable: true,
